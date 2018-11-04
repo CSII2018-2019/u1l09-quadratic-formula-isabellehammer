@@ -26,11 +26,12 @@ public class U1L09 {
 	}
 	private double XPlus (double a, double b, double c){
 	    return ((-b) + Math.sqrt(( b * b) - (4 * a * c))) / (2 * a);
+	    System.out.println("square root: " + (((-b) + Math.sqrt(( b * b) - (4 * a * c))) / (2 * a));
 	}
-	System.out.println("square root: " + (((-b) + Math.sqrt(( b * b) - (4 * a * c))) / (2 * a));
 
 	private double XMinus (double a, double b, double c) {
 	    return ((-b) - Math.sqrt(( b * b) - (4 * a * c))) / ( 2 * a);
+	    System.out.println("square root: " - (((-b) + Math.sqrt(( b * b) - (4 * a * c))) / (2 * a));
 	}
-	System.out.println("square root: " + (((-b) - Math.sqrt(( b * b) - (4 * a * c))) / (2 * a));
+	
 }
