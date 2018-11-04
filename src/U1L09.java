@@ -21,7 +21,16 @@ public class U1L09 {
 		double xPlus = (-b + Math.sqrt((b*b)- (4*a*c))/(2*a));
 		double xMinus = (-b - Math.sqrt((b*b)-(4*a*c))/(2*a));
 		
-		System.out.println("The roots of your equation are " + xPlus + " and " + xMinus);
+		JOptionPane.showMessageDialog(null, "A value: " + a + "\nB value:" + b + "\nC value:" + c);
+		
 	}
+	private double XPlus (double a, double b, double c){
+	    return ((-b) + Math.sqrt(( b * b) - (4 * a * c))) / (2 * a);
+	}
+	System.out.println("square root: " + (((-b) + Math.sqrt(( b * b) - (4 * a * c))) / (2 * a));
 
+	private double XMinus (double a, double b, double c) {
+	    return ((-b) - Math.sqrt(( b * b) - (4 * a * c))) / ( 2 * a);
+	}
+	System.out.println("square root: " + (((-b) - Math.sqrt(( b * b) - (4 * a * c))) / (2 * a));
 }
